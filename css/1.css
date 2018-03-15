@@ -1,0 +1,130 @@
+body{
+    font-family:"Microsoft YaHei","微软雅黑","宋体",helvetica,"Hiragino Sans GB";
+    padding-top:50px;
+}
+h2 { font-family:"Roboto","Microsoft YaHei","微软雅黑","宋体",helvetica,"Hiragino Sans GB";font-size:40px;text-align:center;color:black;font-weight:100; }
+.navbar{
+    margin-bottom:0;
+}
+marquee{
+    color:#433c3c;
+}
+
+/* Navbar */
+/* home */
+#home {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://wx1.sinaimg.cn/large/83670d0agy1fhsuwd8o2xj21kw11xnpe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*   background-attachment: fixed; */
+    background-size: cover;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    padding-top:50px;
+}
+.tagline1{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2.5em;
+    font-weight: 100;
+    color: black;
+    text-align: right;
+    padding-top: 300px;
+}
+.tagline2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3em;
+    font-weight: 100;
+    color: black;
+    text-align: right;
+    padding-top: 10px;
+}
+.navbar-right>li:hover{
+    background-color:#eee;
+}
+/* about */
+#about {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #edd;
+    color: #433c3c;
+    text-indent:50px;
+    font-size:1em;
+    padding-top:50px;
+}
+.about-p{
+    /*   display:inline-block; */
+    line-height:2em;
+    margin:0;
+    padding:0;
+    /*   position:relative; */
+    display: table-cell;
+    vertical-align:middle;
+}
+.about-p-center{
+    /*   position:absolute; */
+    /*     top: 50%; */
+    /*     transform: translateY(-50%); */
+}
+.about-i{
+    line-height:2em;
+    margin:0;
+    padding-bottom:80px;
+}
+/* #about h2:after { border-bottom: 1px solid #AAA;  } */
+.about-container{}
+/* portfolio */
+#portfolio {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://wx3.sinaimg.cn/large/83670d0agy1fht9xthw5xj21kw11xnpe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*   background-attachment: fixed; */
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    padding-top:50px;
+}
+#portfolio .row div{
+    /*   padding-top:20px;
+      margin: 10px 10px 0 0; */
+}
+.portfolio-content{
+    margin-top:60px;
+}
+/* contact */
+#contact {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("http://wx2.sinaimg.cn/large/83670d0agy1fhwm28m2kjj21ao0z0n9u.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    /*   background-attachment: fixed; */
+    background-size: cover;
+    -webkit-background-size: cover;
+    background-color: rgb(28, 28, 28);
+    color: white;
+    padding-top:50px;
+}
+.jumbotron {
+    background: none;
+    padding-top:100px;
+}
+
+.mail {
+    color: #000;
+    font-size:24px;
+}
+
+.jumbotron .fa {
+    color: #fff;
+    margin: 0px 3px;
+}
+
+.jumbotron .fa:hover {
+    color: #edd;
+}
