@@ -86,7 +86,7 @@ marquee{
     background-size: cover;
     -webkit-background-size: cover;
     background-color: rgb(28, 28, 28);
-    color: white;
+    color: #000;
     padding-top:50px;
 }
 #portfolio .row div{
@@ -106,8 +106,8 @@ marquee{
     /*   background-attachment: fixed; */
     background-size: cover;
     -webkit-background-size: cover;
-    background-color: rgb(28, 28, 28);
-    color: white;
+    background-color:#edd;
+    color: #000;
     padding-top:50px;
 }
 .jumbotron {
@@ -116,12 +116,11 @@ marquee{
 }
 
 .mail {
-    color: #000;
     font-size:24px;
 }
 
 .jumbotron .fa {
-    color: #fff;
+    color: #000;
     margin: 0px 3px;
 }
 
